@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+h1{
+	color:red;
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background-image: url("site_img/bolinhas.jpg");
+    background-size: 100%;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(45,135,208);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #000000;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: rgba(161, 52, 52, 0);
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.fakeimg:hover{
+    opacity: 0.9;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    float: bottom;
+}
+.footer h5 {
+    text-align: left;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.rece{
+    background:url("site_img/bolinhas.jpg");
+    background-size: 100%;
+    border-color: black;
+    border-radius: 10px;
+    float: left;
+    padding: 70px;
+    margin-left: 70px;
+    text-align: center;
+}
+.test{
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+.caixa {
+    width: 200px;
+    height: 260px;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 15px;
+    margin-left: 50px;
+    float: left;
+    margin-top: 50px;
+    align-content: center;
+}
+.cover {
+    background-color: rgba(0,0,0,0);
+}
+.isso{
+    background-color: #cbcbcb;
+    width: 200px;
+    height: 150px;
+}
+.caixa .isso {
+    border-radius: 0 0 15px 15px;
+    float: left;
+    margin-left: -15px;
+    margin-top: 95px;
+    padding: 15px;
+    text-align: left;
+    line-break: anywhere ;
+}
+.caixa:hover{
+    opacity: 0.9;
+}
+.caixa .isso p{
+    width: 175px;
+    height: 77px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+.topnav a:link,a:visited{
+    text-decoration: none;
+    color: white;
+}
+#topnav a:link,a:visited,:hover{
+    text-decoration: none;
+    color: black;
+}
+.card2 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
